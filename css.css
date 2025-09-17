@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.contenedor {
+  display: flex;       /* Pone los hijos (columnas) en fila */
+  height: 100vh;       /* Ocupa toda la altura de la ventana */
+}
+
+.columna {
+  padding: 20px;
+}
+
+.grande {
+  flex: 2;   
+  padding: 0;         
+  background: #f0f0f0;
+}
+
+.pequeña {
+  flex: 1;             /* Esta ocupa la mitad que la grande */
+  background: #d0d0d0;
+}
+
+.nombre{
+    background-color: #CD93E6;
+    text-align: center;
+    height: 10%;      
+    width: 100%;       
+    display: flex;     
+    justify-content: center; 
+    align-items: center;
+    font-weight: bold;
+    font-size: x-large;
+}
