@@ -1,36 +1,41 @@
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: Fantasy;
+  background-color: rgb(115, 141, 226);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-.contenedor {
-  display: flex;       /* Pone los hijos (columnas) en fila */
-  height: 100vh;       /* Ocupa toda la altura de la ventana */
+.bienvenida{
+  font-size: 40px;
+  margin-bottom: 20px;
 }
 
-.columna {
-  padding: 20px;
+.boton{
+  margin: 20px 0;
+  cursor: pointer;
 }
 
-.grande {
-  flex: 2;   
-  padding: 0;         
-  background: #f0f0f0;
+.btnDescargar{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
 }
 
-.pequeña {
-  flex: 1;             /* Esta ocupa la mitad que la grande */
-  background: #d0d0d0;
+button{
+      padding: 10px 20px;
+      font-size: 20px;
+      border-radius: 8px;
+      cursor: pointer;
+      background-color: rgb(78, 170, 236);
+      border-color: black;
 }
 
-.nombre{
-    background-color: #CD93E6;
-    text-align: center;
-    height: 10%;      
-    width: 100%;       
-    display: flex;     
-    justify-content: center; 
-    align-items: center;
-    font-weight: bold;
-    font-size: x-large;
+button:hover{
+  background-color: rgb(129, 147, 205);
 }
